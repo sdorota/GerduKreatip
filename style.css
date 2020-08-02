@@ -131,6 +131,7 @@
     text-transform: uppercase;
 }
 a {text-decoration: none;
+    text-align: center;
 }
 #scroller {
     height: 70px;
