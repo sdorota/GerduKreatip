@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box; 
+    clear: both;
+    margin: 0;
+    padding: 0;}
+
+#main-header {
+    min-height: 100vh;
+    width: auto;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+#header-bg {
+    min-height: 100vh;
+    height: 100%;
+    width: auto;
+    background-size: cover;
+    background-image: url(../GerduKreatip/photos/tumblr_myebvrTkci1st5lhmo1_1280\ \(1\).png);
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(44, 62, 80, 0.3);    
+    -webkit-filter: blur(9px);
+    filter: url('/media/blur.svg#blur');
+    filter: blur(9px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#header-bg-mask {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(44, 62, 80, 0.3);
+}
+#main-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 100px;
+    justify-content: center;
+}
+
+#photos-box1 {
+    width:50%;
+    display: flex;
+}
+
+#header-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+#title {
+    font-size: 70px;
+    letter-spacing: -7px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+#title-green {
+    color: rgb(30, 218, 181);
+}
+#header-text {
+    font-size: 30px;
+    letter-spacing: 4px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Open Sans";
+    padding-top: 30px;
+    padding-bottom: 1px;
+}
+.photos-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.photo-nav {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-nav1 {
+    background-color: #18ad90;
+}
+.photo-nav2 {
+    background-color: #1abc9c;
+}
+.photo-nav3 {
+    background-color: #1ccba8;
+}
+.photo-nav4 {
+    background-color: #1abc9c;
+}
+.photo-nav5 {
+    background-color: #1ccba8;
+}
+.photo-nav6 {
+    background-color: #1edab5;
+}
+
+.nav2-img{
+    width: 200px;
+    height: 200px;
+    background-image: url(../GerduKreatip/photos/50.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+.photos-text{
+    font-size: 25px;
+    line-height: 45px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    text-align: center;
+    text-transform: uppercase;
+}
+#scroller {
+    height: 70px;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+#arrow {
+    height: 40px;
+    position: relative;
+}
+
