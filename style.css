@@ -130,6 +130,8 @@
     text-align: center;
     text-transform: uppercase;
 }
+a {text-decoration: none;
+}
 #scroller {
     height: 70px;
     color: white;
